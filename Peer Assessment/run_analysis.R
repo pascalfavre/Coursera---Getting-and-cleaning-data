@@ -93,4 +93,4 @@ tidySummarized = ddply(tidyData, .(subjectid, activity_label), numcolwise(mean))
 tidySummarized <- tidySummarized[ , !(names(tidySummarized) %in% c('activity'))]
 
 #Write the result into a csv file
-write.csv(tidySummarized, file="tidydata.csv")
+write.table(tidySummarized, file="tidydata.txt", row.name=FALSE, sep="\t")

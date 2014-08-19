@@ -9,4 +9,4 @@ This is how run_analysis.R works:
 6. Clean all the data headers by replacing special characters with a .
 7. Re-order the dataset by moving the subjectid and the activity label at the begining
 8. Remove the last column (activity value)
-9. Write the result into a new csv file
+9. Write the result into a new txt file
